@@ -1,0 +1,215 @@
+body {
+      font-family: "Helvetica Neue",sans-serif, comic-sans;
+      font-weight: lighter;
+}
+
+header {
+      width: 100%;
+      height: auto;
+}
+
+
+.logo {
+      line-height: 60px;
+      float: left;
+      margin: 16px 46px;
+      color: #343a40;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+ 
+nav {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      line-height: 60px;
+}
+ 
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+ 
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+ 
+nav ul li a {
+      text-decoration: none;
+      color: #343a40;
+      font-size: 16px;
+}
+ 
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #f8f9fa;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #000;
+      display: none;
+}
+ 
+@media(max-width: 786px) {
+ 
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+ 
+      nav ul {
+            max-height: 0px;
+            background: #f8f9fa;
+      }
+ 
+      nav.vvs ul {
+            background: #f8f9fa;
+      }
+ 
+      .showing {
+            max-height: 34em;
+      }
+ 
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+      }
+ 
+      .menu-icon {
+            display: block;
+      }
+ 
+}
+
+.logos{
+    position: relative;
+    height: calc(4em);
+    width: calc(4em);
+    float: right;
+    top: 100%;
+    margin-right: 10px;
+
+}
+.Logo2 {
+    position: relative;
+    height: calc(4em);
+    width: calc(4em); 
+    float: right;
+    z-index: auto;
+    top: 50%;
+    margin-right: 10px;
+
+}
+#instadarm {
+    position: relative;
+    height: calc(4em); 
+    width: calc(4em); 
+    float: right; 
+    z-index: auto;
+    top: 50%;
+    margin-right: 10px; 
+}
+
+#jumbotrosoos {
+    width: calc(100% + 0%);
+    height: calc(10% + 0%); 
+}
+
+#copyright {
+    font-family: Roboto, sans-serif; 
+    font-size: calc(15px + 4px);
+}
+
+#follow {
+    font-family: comic-sans; 
+    text-align: right;
+    margin-right: calc(3%);
+}
+
+#reiheTwo {
+    float: right; 
+}
+
+#copyright-zeichen{
+    font-size: 20px;
+}
+
+#ente {
+    font-size: calc(100px - 30px);
+}
+
+#keksdiejsnichtaktivieren {
+    font-size: calc(30px + 0px); 
+    text-align: center;
+    color: #e74c3c; 
+    margin-top: 0;
+    font-family: Roboto;
+}
+
+#imgInNav {
+    width: 32px;
+    height: 32px;
+}
+
+#krasserHase {
+margin-bottom: -60px;  bottom: 0;
+  left: 0;
+  width: calc(1^0*100);
+}
+
+#imprssum {
+    font-size: 70px;
+    color: #45aaf2;
+    text-align: left;
+    margin-left: 1%;
+}
+#impresoos {
+    font-size: 20px;
+    color: #F9F9F9;
+    text-align: left;
+    margin-left: 1%;
+}
+
+
+#KarteEnte {
+    width: 800px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#overfloww {
+    display: block;
+    overflow-y: auto;
+    max-height: 50px;
+    font-size: 18px;
+}
+
+#sheesherPic {
+    width: 800px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#mitCSScalculaten {
+  font-weight: bold;
+}
